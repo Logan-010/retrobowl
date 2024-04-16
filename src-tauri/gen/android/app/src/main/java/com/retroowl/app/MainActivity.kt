@@ -1,3 +1,3 @@
-package com.tauri.app
+package com.retroowl.app
 
 class MainActivity : TauriActivity()
