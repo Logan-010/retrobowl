@@ -38,3 +38,5 @@ Open powershell again
 cargo tauri android init
 cargo tauri android build
 ```
+
+(NOTE THAT THE .keystore IS JUST A BOGUS SIGNING KEY USED TO BE ABLE TO ACTUALLY INSTALL & RUN THE APP ON ANDROID)
