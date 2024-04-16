@@ -7,6 +7,10 @@ plugins {
     id("rust")
 }
 
+val keyPropertiesFile = rootProject.file("key.properties")
+val keyProperties = Properties()
+keyProperties.load(FileInputStream(keyPropertiesFile))
+
 android {
     compileSdk = 33
     namespace = "com.tauri.app"
